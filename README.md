@@ -49,8 +49,11 @@ Executes post-reboot actions after a scheduled VM restart.
 
 ## Configuration
 
+- set azure vm idently
+- assign vm identity to access key vault. with managed identity there will be no need to store vault access credentials in the scripts
 - Update Key Vault and secret names in the scripts as needed.
-- Set the target service name in the post-reboot script.
+- 
+- Set the target service name in the post-reboot script. it helpes the verification of vm rebooted successfully
 - Adjust log paths and retention periods as required.
 
 ## License
